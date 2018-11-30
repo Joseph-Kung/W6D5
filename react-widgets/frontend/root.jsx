@@ -1,8 +1,9 @@
 import React from 'react';
+import Clock from './clock.jsx';
 
 const Root = () => {
   return (
-    <div>Hello</div>
+    <div><Clock /></div>
   );
 };
 
