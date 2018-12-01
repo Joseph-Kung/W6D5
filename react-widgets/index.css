@@ -65,3 +65,31 @@ table {
   padding: 20px;
   border: 2px black solid;
 }
+
+.tabs {
+  margin: auto;
+  margin-top: 25px;
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 300px;
+  background-color: lightblue;
+  font-family: sans-serif;
+}
+
+.tab-header {
+  border: 2px solid black;
+  padding: 5px;
+}
+
+.tab-header-container {
+  display: flex;
+  /* width: 300px; */
+  margin: auto;
+  padding: 10px;
+}
+
+.tab-header:hover {
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+}

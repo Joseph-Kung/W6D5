@@ -37,8 +37,8 @@ class Clock extends React.Component {
       
       <div><h1>Date:</h1></div>
       <div>
-        <h1>{this.state.currentTime.getMonth()}/
-            {this.state.currentTime.getDay()}/
+        <h1>{this.state.currentTime.getMonth() + 1}/
+            {this.state.currentTime.getDate()}/
             {this.state.currentTime.getFullYear()}
         </h1>
       </div>
